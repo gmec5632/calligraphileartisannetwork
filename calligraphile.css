@@ -3,24 +3,30 @@ body {
     font-family: "dancing script", gabriola, cursive, georgia, sans-serif;
     font-size: 115%;
     background-color: #e3dec1;
-    background-size: 100%;
     background: rgba(227, 222, 193);
     background-image: url(gallery_SVG/TrianglePattern.svg);
+    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 0 20px 0 0;
     clear: both;
+    width: 70%;
     border: #615104;
+    border-radius: 20px;
     text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
     color: purple;
-    margin: auto;
+    margin-right: inherit;
+    margin-left: inherit;
+    margin: center;
     
 }
+
+/*----------*/
 
 nav {
     width: 100%;
     background-color:rgba(250, 249, 242);
-    background: none;
     background-image: url(galleryImages/Watercolor_headerpage.jpg);
+    justify-content: space-evenly;
     clear: both;
     margin: 0 auto;
     padding: 10px;
@@ -96,13 +102,13 @@ nav li a:active {
     height: auto;
 }
 
-/* note: Data was changed to advance the website. There was no need for the same box div. I added data from different labs to aquire better usage of space. As I built the webpage the shifting of the webpage got weirder. I felt the webpage needed a bit more structure with the typography hierchy you demonstrated. At the end of this project, I had more issues with the flex box. I like this version of how the code is set up. After working with this code for a long time, I decided to do the box image process instead. */
+/*----------*/
 
 h1 {
-    font-size: 3.2em;
+    font-size: 4em;
 }
 h2 {
-    font-size: 3.5em;
+    font-size: 2.9em;
 }
 h3 {
     font-size: 2.5em; 
@@ -122,7 +128,7 @@ footer{
 /*----------*/
 
 h1 {
-    font-size: 45px;
+    font-size: 55px;
 }
 h2 {
     font-size: 35px;
@@ -160,11 +166,11 @@ nav {
 
 
 /*----------*/
-
 #wrapper {
-    width: 100%;
-    margin: 0 auto;
+    width: auto;
+    margin: center;
     overflow: hidden;
+    background-color: #9e056b;
 }
 #header,
 #main,
@@ -172,6 +178,7 @@ nav {
 #nav,
 #ul,
 #a,
+#box,
 #flex-wrap,
 #img,
 #svg,
@@ -179,16 +186,20 @@ nav {
 #style,
 #gallery,
 
+/*-----------*/
+
 #header {
     background-color: transparent;
+    margin: 5px;
+    border-radius: 10px;
+    
   }
 #header h1{
     text-align: center;
-    float: center inherit;
-    width: 800px;
+    width: auto;
     height: 150px;
     color: azure;
-    margin: 0;
+    margin: auto;
 }
 #header h2{
     float: center inherit;
@@ -209,47 +220,55 @@ nav {
 #header {
    font-family: "dancing script", belina, gabriola, cursive;
    flex-direction: column-reverse;
-   display:flex;
+   display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: center inherit;
-   float: center inherit;
-   width: auto;
+   justify-content: inherit;
+   justify-content: space-evenly;
+   float: center;
+   height: inherit;        
+   width: 140%;
+   margin: 12px;    
    background-color: #9e056b;
    font-size: 75%;
-   font-weight: 400;
+   font-weight: 500%;
    font-style: normal;
    color: white;
    
 }
 #header img{
-    width: 100px;
+    width: 1200px;
+    border: 7px darkgreen solid;
+    justify-content: space-evenly;
 }
 
 /*-----------*/
 
 #main {
-    background-color: #6cccb1;
+    font-family: gabriola, cursive, georgia, sans-serif;
+    background-color: rgba(118, 232, 224);
+    border-radius: 20px;
     color: darkblue;
     font-size: 60%;
     clear: both;
-    float: center inherit;
     float: inherit;
-    width: 100%;
+    margin: 12px;
+    width: 140%;
     
 }
 #main img{
-    width: 615px;
+    width: 600px;
     
 }
 
 img {
-    max-width:500%;
+    max-width: 500%;
     
 }
 
 .trianglepattern {
-    width: 100%;
+    margin: auto;
+    width: 200%;
     height: 70%; 
 }
 .webpaintedhorse {
@@ -271,36 +290,52 @@ img {
 
 /*----------*/
 
+/*Aside Graphic Typeface*/
 
 #aside {
-    background-color: darkslateblue;
+    font-family:"dancing script", gabriola, cursive, georgia, sans-serif;
+    color: darkslateblue solid;
+    background-color: rgba(118, 232, 224);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px, rgb(0, 0, 0, 0.1);
     text-align: center;
+    font-size: 50%;
     clear: both;
     margin: auto;
+    width: 100%;
+    
 }
+
+/*-----------*/
+
+/*Aside-Image Content*/
+
 #aside img{
     background-image: url(gallery_SVG/WebPaintedHorse.svg);
     height: auto;
-    width: auto;
-    border: 1px white solid;
+    width: 1270px;
+    box-shadow: 10px 10px 10px, rgb(0, 0, 0, 0.1);
+    border: px clear solid;
+    border-radius: 3px;
     text-align: center;
-    margin: auto;
     clear: both;
-    flex-wrap: wrap;
     flex-direction: row;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
+    padding: inherit;
 }
 
 /*----------*/
 
+/*Biography Graphics*/
+
 .biography {
-    width: auto;
+    width: 90%;
     height: auto;
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 300px;
+    margin: 5px auto;
     flex-wrap: wrap;
     flex-wrap: wrap-reverse;
     flex-direction: row;
@@ -313,34 +348,14 @@ img {
 }
 .biography img {
     height: auto;
-    width: 15%;
+    width: 90%;
     border: 1px white solid;
     border-radius: 20%;
 }
 
 /*----------*/
 
-.Image1 {
-    width: 5%;
-    height: 5%;
-}
-.Image2 {
-    width: 5%;
-    height: 5%;
-}
-.Image3 {
-    width: 5%;
-    height: 5%;
-}
 .Image4 {
-    width: 5%;
-    height: 5%;
-}
-.Image5 {
-    width: 5%;
-    height: 5%;
-}
-.Image6 {
     width: 5%;
     height: 5%;
 }
@@ -355,6 +370,7 @@ img {
 
 .Box Images {
     background-color: #02183b;
+    box-shadow: 10px 10px 10px, rgb(0, 0, 0, 0.1);
     color: blue;
     text-align: center;
     padding: 5px;
@@ -364,9 +380,11 @@ img {
     line-height: 10px;
 }
 
+/*-----------*/
+
 #galleryCredits {
-    width: 50%;
-    margin: 5px auto;
+    width: 150%;
+    margin: 3px auto;
     padding: 20px 0;
     border: yellow 3px solid;
     text-align: center;
@@ -375,21 +393,25 @@ img {
 }
 .galleryImages{
     background-color: white;
+    justify-content: space-evenly;
     color: #76e8e0;
     text-align: center;
     padding: 0px;
     border: lavender solid 3px;
     height: 50%;
+    width: auto;
     line-height: 50%;
    
 }
 .gallery_SVG{
     background-color: white;
+    justify-content: space-evenly;
     color: #76e8e0;
     text-align: center;
     padding: 0px;
     border: lavender solid 3px;
     height: 50%;
+    width: auto;
     line-height: 50%;
 }
 
@@ -399,7 +421,10 @@ img {
     grid-gap: 15px;
     margin: 20px 0;
     border: rgb(158, 5, 107) solid 6px;
+    box-shadow: 10px 10px 10px, rgb(0, 0, 0, 0.1);
+    border-radius: 20px;
     clear: both;
+    width: inherit;
     flex-wrap: wrap;
     flex-wrap: wrap-reverse;
     flex-direction: row;
@@ -410,21 +435,19 @@ img {
     align-items: center;
     }
 
-
-
 @media (max-width: 300px){
     #gallery{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 2fr 2fr 1fr;
     }
 }
 @media screen and (max-width: 200px) {
     #gallery {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
     }
     #wrapper {
-        width: 100%;
+        width: 115%;
     }
-#Handmade Quills, #Resources, #Artisan Quills {
+#Hipster Colortype, #Woman Flower, #Voice Typeface, #Atisan Quills {
         grid-column-start: 1;
         grid-column-end: 2;
     }
@@ -434,10 +457,12 @@ img {
 
 #footer {
     background-color: lavender;
+    width: 143%;
+    margin: auto;
     font-size: 50%;
     font-weight: 500;
     font-style: normal;
     color: darkblue;
     text-align: center;
-    padding: 0px;
+    
 }
