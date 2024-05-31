@@ -1,0 +1,25 @@
+
+/*Attributes used for typefonts and media in "calligraphile.css"*/
+
+body {
+    em: a unit of measurement which indicates size relative to the size of the font.
+    vw: the full form of VW is viewport width. It works like the percentage unit. 
+    px: pixels, or px , are one of the most common length units in CSS.
+    @media: the @media CSS at-rule can be used to apply part of a style sheet based on the result of one or 
+    more media queries. With it, you specify a media query and a block of CSS to apply to the document if 
+    and only if the media query matches the device on which the content is being used.
+}
+
+#header,
+#main,
+#aside,
+#nav,
+#ul,
+#a,
+#box,
+#flex-wrap,
+#img,
+#svg,
+#link,
+#style,
+#gallery,
