@@ -315,7 +315,7 @@ img {
 #aside img{
     background-image: url(gallery_SVG/WebPaintedHorse.svg);
     height: auto;
-    width: 132%;
+    width: 100%;
     box-shadow: 10px 10px 10px, rgb(0, 0, 0, 0.1);
     border: 0px clear solid;
     border-radius: 3px;
