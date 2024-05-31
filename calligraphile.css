@@ -190,7 +190,7 @@ nav {
 
 #header {
     background-color: transparent;
-    margin: 5px;
+    margin: 0px;
     border-radius: 10px;
     
   }
@@ -237,7 +237,8 @@ nav {
    
 }
 #header img{
-    width: 1200px;
+    background-image: url(galleryImages/Plumcoloredrose.jpg)
+    width: 130%;
     border: 7px darkgreen solid;
     justify-content: space-evenly;
 }
@@ -302,7 +303,7 @@ img {
     font-size: 50%;
     clear: both;
     margin: auto;
-    width: 100%;
+    width: 132%;
     
 }
 
@@ -313,7 +314,7 @@ img {
 #aside img{
     background-image: url(gallery_SVG/WebPaintedHorse.svg);
     height: auto;
-    width: 1270px;
+    width: 132%;
     box-shadow: 10px 10px 10px, rgb(0, 0, 0, 0.1);
     border: px clear solid;
     border-radius: 3px;
