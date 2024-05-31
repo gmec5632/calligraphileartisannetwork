@@ -317,7 +317,7 @@ img {
     height: auto;
     width: 132%;
     box-shadow: 10px 10px 10px, rgb(0, 0, 0, 0.1);
-    border: px clear solid;
+    border: 0px clear solid;
     border-radius: 3px;
     text-align: center;
     clear: both;
